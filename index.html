@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ZonaShelWolt | Official Links</title>
+  <title>ZSWolt | Official Links</title>
   <link rel="icon" type="https://raw.githubusercontent.com/ZonaShelWolt/Links/refs/heads/main/PFP.png">
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
@@ -39,7 +39,7 @@
   <div id="main-page-content" class="flex flex-col items-center px-6 py-12">
 
     <div class="text-center mb-10 relative z-10">
-      <a href="https://kick.com/evedshelwolt" target="_blank" aria-label="מעבר לערוץ הקיק (נפתח בטאב חדש)">
+      <a href="https://kick.com/zswolt" target="_blank" aria-label="מעבר לערוץ הקיק (נפתח בטאב חדש)">
         <div class="relative inline-block">
           <img src="https://raw.githubusercontent.com/ZonaShelWolt/Links/refs/heads/main/PFP.png" id="profile-image" alt="תמונת הפרופיל" class="w-32 h-32 rounded-full mx-auto shadow-2xl mb-4 object-cover border-2 border-white/10 transition-all duration-400">
           <span id="live-dot" class="hidden">
@@ -48,7 +48,7 @@
           </span>
         </div>
       </a>
-      <h1 class="text-4xl font-black text-white tracking-tight">ZonaShelWolt</h1>
+      <h1 class="text-4xl font-black text-white tracking-tight">ZSWolt</h1>
       <div class="flex items-center justify-center gap-2 mt-1">
         <span id="live-badge" class="hidden items-center gap-1 bg-red-500/20 border border-red-500/40 text-red-400 text-[10px] font-black uppercase tracking-widest px-2 py-0.5 rounded-full">
           <span class="w-1.5 h-1.5 bg-red-500 rounded-full animate-pulse inline-block"></span>
@@ -73,7 +73,7 @@
     
 <footer class="mt-16 pb-8 text-center flex flex-col items-center gap-3 relative z-10 select-none">
       <div class="text-[9px] text-white/20 font-black tracking-[0.2em] uppercase">
-        © 2026 ZonaShelWolt <span class="mx-1 text-white/10">|</span> Created By ZonaShelWolt
+        © 2026 ZSWolt <span class="mx-1 text-white/10">|</span> Created By ZSWolt
       </div>
     </footer>
   </div>
@@ -101,7 +101,7 @@
 
     async function checkLiveStatus() {
       try {
-        const res = await fetch('https://kick.com/api/v2/channels/zonashelwolt');
+        const res = await fetch('https://kick.com/api/v2/channels/zswolt');
         const data = await res.json();
         const dot = document.getElementById('live-dot');
         const badge = document.getElementById('live-badge');
